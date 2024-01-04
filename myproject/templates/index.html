@@ -1,0 +1,21 @@
+{% include 'header.html' %}
+<html>
+	<head>
+		<title>Weather App</title>
+	</head>
+	<style>
+		body{
+			background-color: gainsboro;
+		}
+	</style>
+	<body>
+		{% block content %}
+			
+		{% endblock %}
+	</body>
+</html>
+<script>
+	$(document).ready(function(){
+		$(".alert").hide(4000);
+	});		
+</script>
